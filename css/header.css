@@ -1,9 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.header__nav-list {
+    display: flex;
+    flex-direction: row;
+}
+.header {
+    display: flex;
+    flex-direction: row;
 }
 
-:root {
-    scroll-behavior: smooth;
+.list__links {
+    display: flex;
+    flex-direction: row;
 }
