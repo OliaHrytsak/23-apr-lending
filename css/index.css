@@ -1,2 +1,9 @@
 @import "global.css";
-@import "header.css"
+@import "header.css";
+@import "footer.css";
+@import "organize";
+@import "prototyping";
+@import "partners";
+@import "testimonials";
+@import "pricing";
+@import "contacts";
