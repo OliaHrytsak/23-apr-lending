@@ -5,5 +5,8 @@
 }
 
 :root {
+    --text-color: #252B42;
+    --sub-text-colour: #374754;
     scroll-behavior: smooth;
+    font-family: 'Graphik', sans-serif;
 }
