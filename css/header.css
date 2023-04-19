@@ -8,6 +8,7 @@
     flex-direction: column;
     background-image: url(../img/header_background.png);
     background-size: cover;
+    background-position: center;
     width: 100%;
     min-height: 863px
 }
