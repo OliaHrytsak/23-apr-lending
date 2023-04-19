@@ -10,6 +10,34 @@
 :root {
     --text-color: #252B42;
     --sub-text-colour: #374754;
+    --header-text-colour: #FFFFFF;
     scroll-behavior: smooth;
     font-family: 'Graphik', sans-serif;
 }
+
+
+body {
+    padding: 25px 25px 25px ;
+    display: block;
+    min-width: 320px;                                                   /*It taken from original web site*/
+    border: 1px solid purple;                                        /*just for testing :) */
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    max-width: 1775px;
+    margin: auto;
+}
+
+section {
+    border: 1px solid purple; 
+}
+
+div {
+    border: 1px solid purple; 
+}
+
