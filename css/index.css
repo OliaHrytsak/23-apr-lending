@@ -1,9 +1,10 @@
 @import "global.css";
 @import "header.css";
 @import "footer.css";
-@import "organize";
-@import "prototyping";
-@import "partners";
-@import "testimonials";
-@import "pricing";
-@import "contacts";
+@import "organize.css";
+@import "prototyping.css";
+@import "partners.css";
+@import "testimonials.css";
+@import "pricing.css";
+@import "contacts.css";
+@import "features.css";

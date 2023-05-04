@@ -9,7 +9,7 @@
 }
 
 .header__navbar {
-    background-color: rgba(117, 190, 218, 0.0) !important;
+    background-color: var(--header-background-color) !important;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -23,7 +23,7 @@
 
 
 .navbar-toggler-icon {
-    background-color: rgba(117, 190, 218, 0.0) !important;
+    background-color: var(--header-background-color) !important;
     background-image: url(../img/navbar__icon.png);
 }
 

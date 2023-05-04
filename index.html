@@ -61,60 +61,64 @@
                 </div>
             </div>
         </nav>
-
-
         <div class="hero">
             <h1 class="hero__title">The best products start with Figma</h1>
             <h3 class="hero__sub-title">Most calendars are designed for teams. Slate is designed for freelancers
             </h3>
-            <button type="button">Try for free</button>
+            <button class="button" type="button">Try for free</button>
         </div>
     </header>
 
     <!-- FEATURES -->
     <main>
-        <section class="features" id="about">
-            <h2 class="features__title">Features</h2>
-            <h3 class="features__sub-title">Most calendars are designed for teams. Slate is designed for freelancers
-            </h3>
+        <section class="features container" id="about">
+            <div class="features__title-box">
+                <h2 class="features__title">Features</h2>
+                <h3 class="features__sub-title">Most calendars are designed for teams. <span class="features__span" >Slate is designed for freelancers.</span> </h3>
+            </div>
+            <div class="desctop_video_screen"><img src="img/feature_video_scrin.png" alt="desctop video screen"></div>
             <ul class="features__list">
                 <li class="features__list-item">
-                    <img src="img/vector_font.png" alt="drawing">
+                    <img class="features__list-icon" src="img/vector_font.png" alt="drawing" width="61px" height="61px">
                     <h4 class="features__desk">OpenType features Variable fonts</h4>
                     <p class="features__exp">Slate helps you see how many more days you need to work to reach your
                         financial goal.</p>
                 </li>
                 <li class="features__list-item">
-                    <img src="img/vector_design.png" alt="draw">
+                    <img class="features__list-icon" src="img/vector_design.png" alt="draw" width="61px" height="61px">
                     <h4 class="features__desk">Design with real data</h4>
                     <p class="features__exp">Slate helps you see how many more days you need to work to reach your
                         financial goal.</p>
                 </li>
                 <li class="features__list-item">
-                    <img src="img/vector_action.png" alt="brush">
+                    <img class="features__list-icon" src="img/vector_action.png" alt="brush" width="61px" height="61px">
                     <h4 class="features__desk">Fastest way to take action</h4>
                     <p class="features__exp">Slate helps you see how many more days you need to work to reach your
                         financial goal.</p>
                 </li>
             </ul>
-            <img class="features__img" src="img/video_screen.png" alt="girl is working with notes">
+            <div class="features__img-desk">
+                <img class="features__img" src="img/video_screen.png" alt="girl is working with notes">
+            </div>
         </section>
         <!-- organize -->
-        <section class="organize" id="product">
+        <section class="organize container" id="product">
             <h2 class="organize__title">Fastest way to organize</h2>
             <h3 class="organize__sub-title">Most calendars are designed for teams. Slate is designed for freelancers
             </h3>
-            <button type="button">Try for free</button>
+            <button class="organize__button button"  type="button">Try for free</button>
             <img class="organize__img" src="img/macbook_pro.png" alt="Macbook">
         </section>
         <!-- prototyping -->
-        <section class="prototyping">
-            <img class="prototyping__img" src="img/undraw_newsletter_vovu.png" alt="Undraw newsletter">
+        <section class="prototyping container">
             <h4 class="prototyping__sub-title">At your fingertips</h4>
-            <h2 class="prototyping__title">Lightning fast prototyping</h2>
+            <h2 class="prototyping__title"><span class="prototyping__descktop-title">Lightning fast prototyping</span><span class="prototyping__mobile-title">Newsletter</span></h2>
+            <h3 class="prototyping__text">Most calendars are designed for teams. Slate is designed for freelancers</h3>
+            <img class="prototyping__img" src="img/undraw_newsletter_vovu.png" alt="Undraw newsletter">
+            
             <h4 class="prototyping__desk">Subscribe to our Newsletter</h4>
             <p class="prototyping__exp">Available exclusivery on Figmaland</p>
-            <form action="#"><input type="text" placeholder="Your Email"><button type="submit">Subscribe</button></form>
+            <form class="prototyping__form" action="#"><input type="text" placeholder="Your Email"><br><button class="button" type="submit">Subscribe</button></form>
         </section>
         <!-- partners  -->
         <section class="partners">

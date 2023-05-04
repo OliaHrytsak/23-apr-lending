@@ -5,12 +5,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 :root {
     --text-color: #252B42;
     --sub-text-colour: #374754;
     --header-text-colour: #FFFFFF;
+    --header-background-color: rgba(117, 190, 218, 0.0);
+
     scroll-behavior: smooth;
     font-family: 'Graphik', sans-serif;
 }
@@ -19,8 +22,8 @@
 body {
     padding: 17px 16px 17px 16px ;
     display: block;
-    min-width: 320px;                                                   /*It taken from original web site*/
-    border: 1px solid purple;                                        /*just for testing :) */
+    min-width: 320px;                                                   
+    border: 1px solid purple;                                        
 }
 
 img {
@@ -39,5 +42,13 @@ section {
 
 div {
     border: 1px solid purple; 
+}
+
+.button {
+    width: 236px;
+height: 52px;
+background-color: rgb(31, 176, 224);
+color: var(--header-text-colour);
+border-radius: 25px;
 }
 
