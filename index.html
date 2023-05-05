@@ -74,7 +74,8 @@
         <section class="features container" id="about">
             <div class="features__title-box">
                 <h2 class="features__title">Features</h2>
-                <h3 class="features__sub-title">Most calendars are designed for teams. <span class="features__span" >Slate is designed for freelancers.</span> </h3>
+                <h3 class="features__sub-title">Most calendars are designed for teams. <span
+                        class="features__span">Slate is designed for freelancers.</span> </h3>
             </div>
             <div class="desctop_video_screen"><img src="img/feature_video_scrin.png" alt="desctop video screen"></div>
             <ul class="features__list">
@@ -106,30 +107,37 @@
             <h2 class="organize__title">Fastest way to organize</h2>
             <h3 class="organize__sub-title">Most calendars are designed for teams. Slate is designed for freelancers
             </h3>
-            <button class="organize__button button"  type="button">Try for free</button>
+            <button class="organize__button button" type="button">Try for free</button>
             <img class="organize__img" src="img/macbook_pro.png" alt="Macbook">
         </section>
         <!-- prototyping -->
         <section class="prototyping container">
             <h4 class="prototyping__sub-title">At your fingertips</h4>
-            <h2 class="prototyping__title"><span class="prototyping__descktop-title">Lightning fast prototyping</span><span class="prototyping__mobile-title">Newsletter</span></h2>
+            <h2 class="prototyping__title"><span class="prototyping__descktop-title">Lightning fast
+                    prototyping</span><span class="prototyping__mobile-title">Newsletter</span></h2>
             <h3 class="prototyping__text">Most calendars are designed for teams. Slate is designed for freelancers</h3>
             <img class="prototyping__img" src="img/undraw_newsletter_vovu.png" alt="Undraw newsletter">
-            
+
             <h4 class="prototyping__desk">Subscribe to our Newsletter</h4>
             <p class="prototyping__exp">Available exclusivery on Figmaland</p>
-            <form class="prototyping__form" action="#"><input type="text" placeholder="Your Email"><br><button class="button" type="submit">Subscribe</button></form>
+            <form class="prototyping__form" action="#"><input type="text" placeholder="Your Email"><br><button
+                    class="button" type="submit">Subscribe</button></form>
         </section>
         <!-- partners  -->
-        <section class="partners">
+        <section class="partners container">
             <h2 class="partners__title">Partners</h2>
             <h3 class="partners__sub-title">Most calendars are designed for teams. Slate is designed for freelancers
             </h3>
+            <ul class="partners__list">
+                <li class="partners__item"><img src="img/partner_google.png" alt="google logo"></li>
+                <li class="partners__item"><img src="img/partner_amazon.png" alt="amazon logo"></li>
+                <li class="partners__item"><img src="img/partner_microsoft.png" alt="microsoft logo"></li>
+            </ul>
             <img class="partners__img" src="img/items_from_two_rows.png" alt="Partners of Figma">
-            <button type="button">Try for free</button>
+            <button class="partners__button button" type="button">Try for free</button>
         </section>
         <!-- Testimonials -->
-        <section class="testimonials">
+        <section class="testimonials container">
             <h2 class="testimonials__title">Testimonials</h2>
             <div class="testimonials__block">
                 <img class="testimonials__img" src="img/brands.png" alt="brand IBM">
@@ -141,18 +149,19 @@
                     <p class="testimonials__client-position">Text Link</p>
                 </div>
             </div>
-            <button type="button">More Testimonials</button>
+            <button class="testimonials__button button" type="button">More Testimonials</button>
         </section>
         <!-- Pricing -->
-        <section class="pricing" id="price">
+        <section class="pricing container" id="price">
             <h2 class="pricing__title">Pricing</h2>
-            <h3 class="pricing__sub-title">Most calendars are designed for teams. Slate is designed for freelancers
+            <h3 class="pricing__sub-title">Most calendars are designed for teams. <span
+                    class="pricing__desk-title">Slate is designed for freelancers.</span>
             </h3>
             <div class="pricing__block">
                 <div class="pricing__block-element">
                     <h4 class="pricing__element">FREE</h4>
                     <p class="pricing__element-def">Organize across all apps by hand</p>
-                    <p class="price__amount"><span>0</span>$ per month</p>
+                    <p class="price__rate"><span class="price__amount">0</span>$ <br>per month</p>
                     <ul class="pricing__list">
                         <li class="pricing__list-item">Pricing Feature</li>
                         <li class="pricing__list-item">Pricing Feature</li>
@@ -160,11 +169,12 @@
                         <li class="pricing__list-item">Pricing Feature</li>
                         <li class="pricing__list-item">Pricing Feature</li>
                     </ul>
+                    <button class="pricing__button button" type="button">Order Now</button>
                 </div>
                 <div class="pricing__block-element">
                     <h4 class="pricing__element">STANDARD</h4>
                     <p class="pricing__element-def">Organize across all apps by hand</p>
-                    <p class="price__amount"><span>10</span>$ per month</p>
+                    <p class="price__rate"><span class="price__amount">10</span>$ <br>per month</p>
                     <ul class="pricing__list">
                         <li class="pricing__list-item">Pricing Feature</li>
                         <li class="pricing__list-item">Pricing Feature</li>
@@ -172,11 +182,12 @@
                         <li class="pricing__list-item">Pricing Feature</li>
                         <li class="pricing__list-item">Pricing Feature</li>
                     </ul>
+                    <button class="pricing__button button" type="button">Order Now</button>
                 </div>
                 <div class="pricing__block-element">
                     <h4 class="pricing__element">BUSINESS</h4>
                     <p class="pricing__element-def">Organize across all apps by hand</p>
-                    <p class="price__amount"><span>99</span>$ per month</p>
+                    <p class="price__rate"><span class="price__amount">99</span>$ <br>per month</p>
                     <ul class="pricing__list">
                         <li class="pricing__list-item">Pricing Feature</li>
                         <li class="pricing__list-item">Pricing Feature</li>
@@ -184,6 +195,7 @@
                         <li class="pricing__list-item">Pricing Feature</li>
                         <li class="pricing__list-item">Pricing Feature</li>
                     </ul>
+                    <button class="pricing__button button" type="button">Order Now</button>
                 </div>
             </div>
         </section>

@@ -50,5 +50,6 @@ height: 52px;
 background-color: rgb(31, 176, 224);
 color: var(--header-text-colour);
 border-radius: 25px;
+cursor: pointer;
 }
 
